@@ -1,0 +1,181 @@
+@import "swal.css";
+.pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#6c5ecf;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}
+:root{
+    --color-dark: #1f1d2b;
+    --color-lite-dark: #353340;
+    --color-red: #ec5252;
+    --color-orange: #ff7551;
+    --color-purple: #6c5ecf;
+    --color-green: #22b07d;
+    --color-text-alt: #5c5c6b;
+    --color-gold:#fecd78;
+    background: var(--color-dark);
+    color: var(--color-text-alt);
+    letter-spacing: 1px;
+
+}
+*::-webkit-scrollbar {
+    width: 5px;               /* width of the entire scrollbar */
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--color-lite-dark);        /* color of the tracking area */
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color:  var(--color-purple);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+}
+
+body .uk-search-navbar {
+    background: #00000021 !important;
+    backdrop-filter: blur(20px);
+}
+.uk-tooltip{
+    background: #00000021 !important;
+    backdrop-filter: blur(20px);
+    color:white !important;
+    padding:7px;
+}
+body .kf_search_result {
+    background: #1f1d2b !important;
+    box-shadow: 0 21px 52px -31px #6c5ecf;
+}
+body .kf-dropdown-menu {
+    background: #00000021 !important;
+    backdrop-filter: blur(20px);
+}
+body aside{
+    background: #00000021 !important;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    padding-top: 10px;
+}
+body .uk-navbar{
+    background:transparent!important;
+}
+body .page{
+    background: url("/images/bg.svg") var(--color-dark);
+    background-position: top;
+    background-repeat: no-repeat;
+}
+aside, main{
+    padding-left: 40px!important;
+}
+.page{
+    min-height:100vh;
+}
+.uk-navbar{
+    background: var(--color-dark)!important;
+    /*border-bottom: 1px solid #6c5ecf21;*/
+    margin-bottom: 20px;
+}
+.uk-logo{
+    color:white!important;
+    padding: 0!important;
+    width: 90%!important;
+}
+.uk-search-navbar{
+    background: var(--color-lite-dark)!important;
+    padding: 0 100px 0 10px;
+    border-radius: 10px;
+}
+.uk-nav-header{
+    color: var(--color-text-alt)!important;
+}
+.uk-search-navbar .uk-search-input{
+    font-size: 1rem !important;
+}
+.uk-nav-default>li.uk-active>a{
+    color:white !important;
+    font-weight: bold !important;
+}
+.kf-dropdown > a, .kf-dropdown-menu li > a {
+    color: #ffffff8a!important;
+}
+.chat-logo > a{
+    color: #ffffff!important;
+    font-size: 20px!important;
+}
+.kf-dropdown-menu ul {
+    text-align: center;
+    text-transform: uppercase;
+}
+.kf-dropdown-menu li:hover a {
+    color: white!important;
+}
+.chat-container, .chat-send-message, .chat-admin-dropdown, .grid-view{
+    background: #00000021 !important;
+    backdrop-filter: blur(20px);
+    padding: 10px;
+}
+.chat-container {
+    border-radius: 10px 10px 0 0;
+}
+.chat-send-message{
+    margin-bottom: 100px;
+}
+.chat-username{
+    color: white;
+    padding: 3px 10px 4px 10px;
+    border-radius: 7px;
+    clear: both;
+    opacity: 0.8;
+    background:var(--color-text-alt);
+}
+.admin-username {
+    background: var(--color-purple);
+    opacity: 1;
+}
+.chat-text{
+    color:#ffffffb8;
+}
+.chat-container{
+    padding: 20px;
+    height: 550px;
+    overflow: auto;
+}
+.chat-body:not(:last-child){
+    border-bottom: 1px solid #35334073;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.chat-text-area, .chat-text-area:active, .chat-text-area:focus{
+    border-top: 1px solid #35334073;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0 0 10px 10px;
+    background:none;
+    outline:0;
+    resize: none;
+}
+.chat-button{
+    background: var(--color-purple);
+    color:white;
+    text-align:center;
+
+}
+.chat-admin-menu {
+    background: none;
+    border:none;
+    outline:none;
+    color:inherit;
+}
+.chat-admin-menu:hover{
+    color: white;
+    cursor: pointer;
+}
+.auth_title {
+    color: #ffffff70;
+    text-align: center;
+}
+.incorrect_message{
+    opacity: .3!important;
+}
+tr:hover{
+    background:#252337!important;
+}
+a.chat-button:hover{
+    color: white;
+}

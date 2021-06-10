@@ -1,0 +1,18 @@
+.swal2-popup{
+    background: var(--color-dark)!important;
+    color:white!important;
+    box-shadow: 0 0 200px -75px var(--color-purple)!important;
+}
+.swal2-title{
+    color:white!important;
+}
+.swal2-icon.swal2-success [class^=swal2-success-line]{
+    background-color:var(--color-purple)!important;
+}
+.swal2-icon.swal2-success .swal2-success-ring{
+    border:.25em solid rgb(107 112 255 / 18%)!important;
+}
+.swal2-icon.swal2-success {
+    border-color:var(--color-purple)!important;
+    color:var(--color-purple)!important;
+}
