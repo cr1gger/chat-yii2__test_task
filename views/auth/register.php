@@ -1,4 +1,5 @@
 <?php
+/** @var array $alert */
 
 use app\widgets\UkAlert;
 

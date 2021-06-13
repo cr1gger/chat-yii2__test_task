@@ -1,5 +1,5 @@
 <?php
-
+/** @var integer $message_id */
 use yii\helpers\Url;
 
 ?>

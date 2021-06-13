@@ -1,5 +1,7 @@
 <?php
 
+/** @var Messages $message */
+
 use app\models\Messages;
 use app\models\Rbac;
 use app\widgets\AdminDropDown;

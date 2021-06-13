@@ -1,5 +1,7 @@
 <?php
+/** @var ActiveDataProvider $dataProvider */
 
+use yii\data\ActiveDataProvider;
 use app\models\Rbac;
 use yii\grid\GridView;
 use yii\helpers\Html;

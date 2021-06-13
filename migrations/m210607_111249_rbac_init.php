@@ -52,8 +52,7 @@ class m210607_111249_rbac_init extends Migration
      */
     public function safeDown()
     {
-        echo "m210607_111249_rbac_init cannot be reverted.\n";
-
+        Yii::$app->runAction('migrate/down', ['migrationPath' => '@yii/rbac/migrations', 'interactive' => false]);
         return false;
     }
 

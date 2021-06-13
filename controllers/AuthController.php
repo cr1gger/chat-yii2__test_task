@@ -40,14 +40,15 @@ class AuthController extends Controller
         if (Yii::$app->request->isPost)
         {
             $data = Yii::$app->request->post();
-            $user = User::find()->where(['login' => $data['login']])->one();
             if (strlen($data['login']) > 10) {
                 $alert = [
                     'message' => 'Логин не может быть длинее 10 символов',
                     'cssClass' => 'danger'
                 ];
-                goto render;
+                return $this->render('register', compact('alert'));
             }
+
+            $user = User::find()->where(['login' => $data['login']])->one();
             if (!$user)
             {
                 $user = new User();
@@ -64,7 +65,6 @@ class AuthController extends Controller
             }
 
         }
-        render:
         return $this->render('register', compact('alert'));
     }
     public function actionLogout()

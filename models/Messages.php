@@ -21,7 +21,9 @@ class Messages extends \yii\db\ActiveRecord
 {
     const
         MESSAGE_CORRECT = 0,
-        MESSAGE_INCORRECT = 1;
+        MESSAGE_INCORRECT = 1,
+
+        RENDER_COUNT = 30;
 
     public function behaviors()
     {

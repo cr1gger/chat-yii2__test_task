@@ -1,5 +1,7 @@
 <?php
+/** @var Messages $messages */
 
+use app\models\Messages;
 use app\widgets\ChatMessage;
 
 $this->title = 'Чат: Обсуждаем PHP 9';
